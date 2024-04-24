@@ -1,0 +1,12 @@
+{
+    "development": {
+        "storage": "student.sqlite",
+        "dialect": "sqlite"
+    },
+    "production": {
+        "username": "TODO",
+        "host": "TODO.database.windows.net",
+        "database": "TODO",
+        "dialect": "mssql"
+    }
+}
