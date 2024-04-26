@@ -1,0 +1,17 @@
+In the simplest terms, the Express code is mainly concerned with
+behind-the-scenes, server-side goings-on, while the Vue parts handle rendering
+the frontend and giving the user something nice to look at and interact with.
+
+The Express code, for example, will determine what to tell the browser to
+render when a certain URL is entered, or routing. It also handles the data
+needed and produced by the web app and governs its interactions with the
+database, mediating the relationship between the Vue app and the database it
+needs through an API.
+
+The Vue code, on the other hand, is more important to the end-user, as it
+governs the way the app is rendered in the user's browser. Input validation is
+performed within the Vue code, as well as delineating the styles for each
+page. The Vue code loops all the frontend elements in together to make their
+relationship with the backend more modular and straightforward, since it
+rewards the developer who breaks up their code into components with a modular
+system with easily interchangeable parts and easier debugging.

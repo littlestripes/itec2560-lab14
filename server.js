@@ -1,4 +1,7 @@
-const express = require('express');
+//const express = require('express');
+// wasn't working, so trying import syntax
+import 'express';
+
 const apiRoutes = require('./routes/api');
 const path = require('path');
 
