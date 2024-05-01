@@ -19,6 +19,8 @@ onMounted( () => {
 
 <template>
 
+    <h1>Student Sign In Application</h1>
+
     <NewStudentForm></NewStudentForm>
     <StudentTable></StudentTable>
     <StudentMessage></StudentMessage>
@@ -27,5 +29,10 @@ onMounted( () => {
 
 
 <style scoped>
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
 
 </style>
